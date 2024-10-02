@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b263b;
+  }
+  
+  .navbar .logo {
+    font-size: 1.8rem;
+    color: #76c7c0;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #e0e1dd;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #76c7c0;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0d1b2a, #1b263b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+    color: #76c7c0;
+  }
+  
+  .animated-wrapper {
+    display: inline-block;
+    height: 100px;
+    width: 300px; /* Define uma largura fixa para impedir o movimento */
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .animated-text {
+    display: inline-block; /* Garante que o texto não se mova */
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    padding-right: 10px;
+  animation: blink 0.75s step-end infinite;
+  color: #ffffff;
+  }
+  
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .cta-button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  
+  .cta-button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px; /* Adicione esta linha */
+  }
+  
+  .about-section,
+  .projects-section,
+  .recruitment-section,
+  .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1b263b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  footer {
+    background-color: #1b263b;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 20px;
+  }
+  
