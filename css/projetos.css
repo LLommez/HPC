@@ -122,3 +122,10 @@
     color: #e0e1dd;
   }
   
+  .logomarca {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover;  /* Garante que a imagem se ajuste corretamente dentro do círculo */
+    margin-right: 800px; /* Espaço entre a logo e o título */
+}

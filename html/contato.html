@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - H.P.C.</title>
+    <link rel="stylesheet" href="../css/contato.css">
+    <!-- Adiciona o Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+</head>
+
+<header>
+    <div class="navbar">
+      <div class="logo">H.P.C.</div>
+      <img src="../imagens/logomarca.png" alt="Logo" class="logomarca">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="../html/integrantes.html">Integrantes</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<body>
+    <section class="team-hero">
+        <h1>Contato</h1>
+        <p>Entre em contato com o laboratório H.P.C. para mais informações.</p>
+    </section>
+    <br>
+
+    <section class="contact-form">
+        <h2>Formulário de Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="lab-info">
+        <h2>Localização do Laboratório</h2>
+        <p>Email: <a href="mailto:highperformancechemistry@gmail.com">contato@laboratoriohpc.com</a></p>
+        <p>Endereço: Av. Pres. Antônio Carlos, 6627 - Belo Horizonte, Brasil - Sala 223</p>
+
+        <div id="map"></div>
+    </section>
+
+
+    <!-- Adiciona o Leaflet.js -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="../js/contato.js"></script>
+</body>
+</html>

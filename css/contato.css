@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a2540;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1b3a57;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.8rem;
+    border: none;
+    background-color: #0a8bf0;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0a76d0;
+}
+
+.lab-info {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.lab-info p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+#map {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%;
+    }
+}
+
+header {
+    background-color: #1b263b;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: #76c7c0;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #e0e1dd;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #76c7c0;
+  }
+
+  .logomarca {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover;  /* Garante que a imagem se ajuste corretamente dentro do círculo */
+    margin-right: 800px; /* Espaço entre a logo e o título */
+}
+
+.team-hero {
+    background: linear-gradient(to right, #0d1b2a, #1b263b);
+    padding: 60px 20px;
+    text-align: center;
+    color: #e0e1dd;
+  }
+  
+  .team-hero h1 {
+    font-size: 3rem;
+    color: #76c7c0;
+    margin-bottom: 10px;
+  }
+  
+  .team-hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
